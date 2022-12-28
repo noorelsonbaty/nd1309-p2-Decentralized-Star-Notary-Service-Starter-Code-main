@@ -1,0 +1,59 @@
+Goerli Address: 0xFE45995484C612c8CE2d8FDaCBC2b71afEC4556d
+
+Starting migrations...
+======================
+> Network name:    'goerli'
+> Network id:      5
+> Block gas limit: 30000000 (0x1c9c380)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x88a7e4a463f8a8a0912d30a7cfa6838728bef64d9afea6a613afe60482d7438a
+   > Blocks: 1            Seconds: 16
+   > contract address:    0xcEeBBF507981621E120d2DAf4A130259d098b6e8
+   > block number:        8212745
+   > block timestamp:     1672191696
+   > account:             0xFE45995484C612c8CE2d8FDaCBC2b71afEC4556d
+   > balance:             0.199999999955714856
+   > gas used:            271688 (0x42548)
+   > gas price:           0.000000163 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000000000044285144 ETH
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.000000000044285144 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'StarNotary'
+   ----------------------
+   > transaction hash:    0xac561c62c17473de88d4a0b77a21817c2ea6b020ccfd8569dcc5a5f727b260d0
+   > Blocks: 0            Seconds: 8
+   > contract address:    0x03C48170B37447f8275E8E7Fb48A3d91Ae916935
+   > block number:        8212747
+   > block timestamp:     1672191744
+   > account:             0xFE45995484C612c8CE2d8FDaCBC2b71afEC4556d
+   > balance:             0.199999999473472218
+   > gas used:            2894846 (0x2c2bfe)
+   > gas price:           0.000000164 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000000000474754744 ETH
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.000000000474754744 ETH
+
+Summary
+=======
+> Total deployments:   4
+> Final cost:          0.007916335544915536 ETH
+
